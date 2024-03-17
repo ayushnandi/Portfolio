@@ -4,10 +4,32 @@
         url("../public/font/tusker.ttf") format("truetype");
 }
 
+@font-face{
+    font-family: "PoppinsBold";
+    src: local("PoppinsBold"),
+        url("../public/font/PoppinsBold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "PoppinsRegular";
+    src: local("PoppinsRegular"),
+        url("../public/font/PoppinsRegular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Poppinsemibold";
+    src: local("Poppinsemibold"),
+        url("../public/font/PoppinsSemiBold.ttf") format("truetype");
+}
+
 @font-face {
     font-family: "MDPrimer";
     src: local("MDPrimer"),
         url("../public/font/MDPrimer.ttf") format("truetype");
+}
+
+.Poppinsemibold{
+    font-family: "Poppinsemibold";
 }
 
 .loda{
@@ -16,4 +38,12 @@
 
 .MDPrimer{
     font-family: "MDPrimer";
+}
+
+.PoppinsBold{
+    font-family: "PoppinsBold";
+}
+
+.PoppinsRegular{
+    font-family: "PoppinsRegular";
 }
